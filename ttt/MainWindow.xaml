@@ -13,6 +13,8 @@
             <RowDefinition Height="45"/>
         </Grid.RowDefinitions>
         <Frame Content="" Name="MainFrame" Height="329" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="792"/>
-
+        <Button Content="Назад" Background="Beige" ToolTip="Кликните для возврата на предыдущую страницу" HorizontalAlignment="Left" 
+                Height="30" Width="60" FontFamily="Arial" FontSize="12" Foreground="Chocolate" Grid.Row="0" Margin="5"/>
+        <TextBlock Text="Разработчик: Аксёнова ТГ" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Foreground="Blue" FontFamily="Arial" Grid.Row="2" />
     </Grid>
 </Window>
