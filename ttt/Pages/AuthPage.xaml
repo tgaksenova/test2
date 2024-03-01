@@ -25,10 +25,8 @@
                Height="50" VerticalAlignment="Top"/>
         <TextBox Background="Transparent" ToolTip="Введите логин или почту" Name="txtLog" Grid.Row="0" Grid.Column="1" 
                  HorizontalAlignment="Left" Width="150" Height="50" VerticalAlignment="Top"/>
-        <TextBlock Margin="5,2" Text="Логин или почта" Foreground="Gray" Name="txtHintLog" Grid.Row="0" Grid.Column="1"/>
         <PasswordBox Background="Transparent" ToolTip="Введите пароль" Name="pswPar" Grid.Row="1" Grid.Column="1" 
                      HorizontalAlignment="Left" Width="150" Height="50" VerticalAlignment="Top"/>
-        <TextBlock Text="Пароль" Foreground="Gray" Name="txtHintPar" Grid.Row="1" Grid.Column="1" />
         <Button Content="Вход" ToolTip="Кликните для входа" Grid.Row="2" Grid.ColumnSpan="2"/>
         <Button Content="Регистрация" ToolTip="Кликните для регистрации" Grid.Row="3" Grid.ColumnSpan="2"/>
 
